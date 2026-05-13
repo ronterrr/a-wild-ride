@@ -10,8 +10,13 @@
     src: url(fonts/SpecialElite-Regular.ttf);
 }
 
+body{
+    margin: 0;
+}
+
 .links {
-    padding-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .links ul{
@@ -25,31 +30,37 @@
     /* color: seagreen; */
     color: #98fb98;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 17px;
     transition: all 0.5s ease-in-out;
     font-family: "SpecialElite";
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    line-height: 40px;
+    line-height: 10px;
 }
 
 .links ul a:hover{
     color: skyblue;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .links ul li .current-page{
     color: gold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-    font-size: 25px;
+    font-size: 20px;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
-    font-size: 90px;
+    font-size: 100px;
     letter-spacing: 5px;
     font-family: "Rubik";
     color: #D99151;
-    margin: 10px;
+    margin: 0px;
+    padding-top: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 0px;
 }
 
 header h3 {
@@ -69,10 +80,15 @@ header h3 {
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
     text-align: center;
     justify-content: center;
     margin: 0;
+}
+
+#index-body .links{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 
