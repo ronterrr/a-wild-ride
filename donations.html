@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
-<body>
+<body id="donations-body">
     <header>
         <h1>A WILD RIDE</h1>
         <!-- <h3>A Site Showcasing Endangered Animal Species All Over The Planet</h3> -->
@@ -27,22 +27,24 @@
 
     <div>
         <form class="donation-form">
-            <label>Thank You For Your Interest In Donating<br>Please Enter Your Name</label><br>
+            <label>Thank You For Your Interest In Donating!<br><br>Please Enter Your Name</label><br>
             <input type="text" placeholder="John Doe" required><br>
             <label>Please Enter Your Email</label><br>
             <input type="email" placeholder="example@mail.com" required><br>
 
             <label>Please Select The Biomes You Are Interested In Donating To:</label><br>
 
-            <input type="checkbox" id="savannah">
-            <label for="savannah">Savannah</label><br>
-            <input type="checkbox" id="rainforests">
-            <label for="rainforests">Rainforests</label><br>
-            <input type="checkbox" id="arctic">
-            <label for="arctic">The Arctic</label><br>
-            <input type="checkbox" id="aquatic">
-            <label for="aquatic">Aquatic Life</label><br>
-            <input type="submit">
+            <div class="biomes">
+                <input type="checkbox" id="savannah">
+                <label for="savannah">Savannah</label><br>
+                <input type="checkbox" id="rainforests">
+                <label for="rainforests">Rainforests</label><br>
+                <input type="checkbox" id="arctic">
+                <label for="arctic">The Arctic</label><br>
+                <input type="checkbox" id="aquatic">
+                <label for="aquatic">Aquatic Life</label><br>
+                <input type="submit" id="submit-button">
+            </div>
         </form>
     </div>
     <div class="thanks-message"></div>

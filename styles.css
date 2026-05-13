@@ -370,3 +370,66 @@ header h3 {
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
+
+
+/* Donations */
+
+#donations-body{
+    background-color: darkolivegreen;
+    /* background-image: url(images/a-wild-ride-bg.jpeg); */
+    /* background-image: url(https://images.pexels.com/photos/1350197/pexels-photo-1350197.jpeg); */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#donations-body header{
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#donations-body .links{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.donation-form{
+    text-align: center;
+    padding: 40px;
+    line-height: 25px;
+}
+
+.donation-form label{
+    font-family: "SpecialElite";
+    font-size: 20px;
+}
+
+.donation-form input{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.donation-form input[type="checkbox"]{
+    accent-color: #D99151;
+}
+
+.donation-form #submit-button{
+    border-radius: 10px;
+    height: 30px;
+    background-color: #98fb98;
+    color: #D99151;
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+}
+
+.donation-form #submit-button:hover{
+    background-color: #D99151;
+    color: #98fb98;
+}
+
+.donation-form .biomes label{
+    font-size: 17px;
+}
