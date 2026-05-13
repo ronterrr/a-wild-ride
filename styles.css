@@ -433,3 +433,13 @@ header h3 {
 .donation-form .biomes label{
     font-size: 17px;
 }
+
+.thanks-message{
+    text-align: center;
+    padding-top: 70px;
+    font-family: "SpecialElite";
+    line-height: 70px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 29px;
+}
