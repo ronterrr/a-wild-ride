@@ -103,23 +103,31 @@ header h3 {
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 100px;
+    gap: 50px 100px;
     flex-wrap: wrap;
     padding: 0;
 }
 
 .savannah-animals ul h3{
     text-align: center;
+    font-family: "SpecialElite";
+    color:azure;
+}
+
+.savannah-animals ul li:hover h3 {
+    color: gold;
+    transition: all ease-in-out 0.5s;
 }
 
 .savannah-animals ul li img{
     height: 200px;
-    transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.7s;
     border-radius: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .savannah-animals ul li img:hover{
     height: 250px;
     border-radius: 10px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
