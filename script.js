@@ -17,3 +17,24 @@ let quoteAuthors = [
     "Lao Tzu",
     "Gerard De Nerval"
 ]
+
+// Cycle
+
+let currentIndex = 0;
+const quoteSection = document.querySelector(".quote-section");
+
+function quoteUpdate(){
+    quoteSection.innerHTML = `
+        <p class="quote-text">${quotes[currentIndex]}</p>
+        <p class="quote-author">${quoteAuthors[currentIndex]}</p>
+    `;
+
+    if (currentIndex === quotes.length - 1){
+        currentIndex = 0;
+    } else{
+        currentIndex++;
+    }
+}
+
+quoteUpdate();
+setInterval(quoteUpdate, 4000);
