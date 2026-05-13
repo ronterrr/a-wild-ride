@@ -1,3 +1,9 @@
+// Getting last visited site
+console.log('script running on:', window.location.pathname);
+const lastVisited = localStorage.getItem('currentPage');
+localStorage.setItem('currentPage', window.location.pathname);
+console.log(lastVisited);
+
 // quotes
 
 let quotes = [
