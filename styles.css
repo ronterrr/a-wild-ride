@@ -1,0 +1,54 @@
+/* GLOBAL */
+
+
+.links {
+    padding-top: 150px;
+}
+
+.links ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.links ul a {
+    text-decoration: none;
+    color: seagreen;
+    text-transform: uppercase;
+    font-size: 35px;
+    transition: all 0.5s ease-in-out;
+}
+
+.links ul a:hover{
+    color: skyblue;
+    font-size: 40px;
+}
+
+header h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+header h3 {
+    font-size: 20px;
+}
+
+
+/* INDEX */
+
+
+#index-body{
+    background-color: darkolivegreen;
+    /* background-image: url(images/a-wild-ride-bg.jpeg); */
+    background-image: url(https://images.pexels.com/photos/31000819/pexels-photo-31000819.jpeg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+
+
+
