@@ -102,8 +102,24 @@ header h3 {
 .savannah-animals ul {
     display: flex;
     justify-content: center;
+    list-style: none;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.savannah-animals ul h3{
+    text-align: center;
 }
 
 .savannah-animals ul li img{
-    width: 100px;
+    height: 200px;
+    transition: all ease-in-out 0.5s;
+    border-radius: 30px;
+}
+
+.savannah-animals ul li img:hover{
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
