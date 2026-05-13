@@ -305,7 +305,7 @@ header h3 {
 #aquatic-body{
     background-color: darkolivegreen;
     /* background-image: url(images/a-wild-ride-bg.jpeg); */
-    background-image: url(https://images.pexels.com/photos/29612758/pexels-photo-29612758.jpeg);
+    background-image: url(https://images.pexels.com/photos/1350197/pexels-photo-1350197.jpeg);
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -345,7 +345,7 @@ header h3 {
 }
 
 .aquatic-animals ul li:hover h3 {
-    color:cyan;
+    color:#7FFFD4;
     transition: all ease-in-out 0.5s;
 }
 
