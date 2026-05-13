@@ -169,3 +169,66 @@ header h3 {
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
+
+
+/* Rainforests */
+
+#rainforests-body{
+    background-color: darkolivegreen;
+    /* background-image: url(images/a-wild-ride-bg.jpeg); */
+    background-image: url(https://images.pexels.com/photos/127909/pexels-photo-127909.jpeg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#rainforests-body header{
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#rainforests-body .links{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.rainforest-animals ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px 100px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.rainforest-animals ul a{
+    text-decoration: none;
+}
+
+.rainforest-animals ul h3{
+    text-align: center;
+    font-family: "SpecialElite";
+    color:azure;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.rainforest-animals ul li:hover h3 {
+    color: gold;
+    transition: all ease-in-out 0.5s;
+}
+
+.rainforest-animals ul li img{
+    height: 200px;
+    transition: all ease-in-out 0.7s;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.rainforest-animals ul li img:hover{
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
