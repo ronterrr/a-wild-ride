@@ -96,12 +96,14 @@ header h3 {
 }
 
 .quote-text{
-    font-size: 40px;
+    font-size: 35px;
+    font-family: "SpecialElite";
 }
 
 .quote-author{
     font-size: 20px;
     font-style: italic;
+    font-family: "SpecialElite";
 }
 
 /* Savannah */
