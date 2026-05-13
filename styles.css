@@ -1,8 +1,17 @@
 /* GLOBAL */
 
+@font-face {
+    font-family: "Rubik";
+    src: url(fonts/RubikDirt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "SpecialElite";
+    src: url(fonts/SpecialElite-Regular.ttf);
+}
 
 .links {
-    padding-top: 150px;
+    padding-top: 10px;
 }
 
 .links ul{
@@ -13,26 +22,34 @@
 
 .links ul a {
     text-decoration: none;
-    color: seagreen;
+    /* color: seagreen; */
+    color: #98fb98;
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 20px;
     transition: all 0.5s ease-in-out;
+    font-family: "SpecialElite";
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .links ul a:hover{
     color: skyblue;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 header h1 {
-    font-size: 50px;
+    font-size: 90px;
     letter-spacing: 5px;
+    font-family: "Rubik";
+    color: #D99151;
+    margin: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 header h3 {
     font-size: 20px;
+    font-family: "SpecialElite";
+    /* color: skyblue; */
 }
-
 
 /* INDEX */
 
