@@ -52,6 +52,7 @@ header h3 {
     /* color: skyblue; */
 }
 
+
 /* INDEX */
 
 
@@ -69,4 +70,34 @@ header h3 {
 }
 
 
+/* Savannah */
 
+#savannah-body{
+    background-color: darkolivegreen;
+    /* background-image: url(images/a-wild-ride-bg.jpeg); */
+    background-image: url(https://images.pexels.com/photos/31000819/pexels-photo-31000819.jpeg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#savannah-body header{
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#savannah-body .links{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.savannah-animals ul {
+    display: flex;
+    justify-content: center;
+}
+
+.savannah-animals ul li img{
+    width: 100px;
+}
