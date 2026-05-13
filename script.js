@@ -26,7 +26,7 @@ const quoteSection = document.querySelector(".quote-section");
 function quoteUpdate(){
     quoteSection.innerHTML = `
         <p class="quote-text">${quotes[currentIndex]}</p>
-        <p class="quote-author">${quoteAuthors[currentIndex]}</p>
+        <p class="quote-author">~${quoteAuthors[currentIndex]}~</p>
     `;
 
     if (currentIndex === quotes.length - 1){

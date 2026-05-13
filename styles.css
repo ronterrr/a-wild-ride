@@ -91,6 +91,18 @@ header h3 {
     text-align: center;
 }
 
+.quote-section{
+    margin-top: 150px;
+}
+
+.quote-text{
+    font-size: 40px;
+}
+
+.quote-author{
+    font-size: 20px;
+    font-style: italic;
+}
 
 /* Savannah */
 
