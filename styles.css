@@ -81,7 +81,7 @@ header h3 {
 #savannah-body{
     background-color: darkolivegreen;
     /* background-image: url(images/a-wild-ride-bg.jpeg); */
-    background-image: url(https://images.pexels.com/photos/31000819/pexels-photo-31000819.jpeg);
+    background-image: url(https://images.pexels.com/photos/127909/pexels-photo-127909.jpeg);
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,6 +106,10 @@ header h3 {
     gap: 50px 100px;
     flex-wrap: wrap;
     padding: 0;
+}
+
+.savannah-animals ul a{
+    text-decoration: none;
 }
 
 .savannah-animals ul h3{
