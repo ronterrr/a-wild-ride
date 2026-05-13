@@ -240,7 +240,7 @@ header h3 {
 #arctic-body{
     background-color: darkolivegreen;
     /* background-image: url(images/a-wild-ride-bg.jpeg); */
-    background-image: url(https://images.pexels.com/photos/5068057/pexels-photo-5068057.jpeg);
+    background-image: url(https://images.pexels.com/photos/29612758/pexels-photo-29612758.jpeg);
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -280,7 +280,7 @@ header h3 {
 }
 
 .arctic-animals ul li:hover h3 {
-    color: greenyellow;
+    color:cyan;
     transition: all ease-in-out 0.5s;
 }
 
