@@ -6,11 +6,14 @@ console.log(lastVisited);
 
 // checking if submit button is pressed
 const donationForm = document.querySelector(".donation-form");
-
+const thanksMessage = document.querySelector(".thanks-message");
 
 function onSubmit(){
     event.preventDefault();
     donationForm.classList.add("hidden");
+    thanksMessage.innerHTML = `
+    <h3>Thanks for your interest!</h3>
+    <h3>A list of organisations you can donate to relative to your choices has been mailed to you!</h3>`;
 }
 
 donationForm.addEventListener('submit', onSubmit);
