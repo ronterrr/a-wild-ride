@@ -4,6 +4,16 @@ const lastVisited = localStorage.getItem('currentPage');
 localStorage.setItem('currentPage', window.location.pathname);
 console.log(lastVisited);
 
+// checking if submit button is pressed
+const donationForm = document.querySelector(".donation-form");
+
+
+function onSubmit(){
+    event.preventDefault();
+    donationForm.classList.add("hidden");
+}
+
+donationForm.addEventListener('submit', onSubmit);
 // quotes
 
 let quotes = [

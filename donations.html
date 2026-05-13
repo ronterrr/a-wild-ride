@@ -25,23 +25,23 @@
         </div>
     </header>
 
-    <div class="donation-form">
-        <form>
+    <div>
+        <form class="donation-form">
             <label>Thank You For Your Interest In Donating<br>Please Enter Your Name</label><br>
-            <input type="text" placeholder="John Doe"><br>
+            <input type="text" placeholder="John Doe" required><br>
             <label>Please Enter Your Email</label><br>
-            <input type="email" placeholder="example@mail.com"><br>
+            <input type="email" placeholder="example@mail.com" required><br>
 
             <label>Please Select The Biomes You Are Interested In Donating To:</label><br>
 
-            <input type="checkbox">
-            <label>Savannah</label><br>
-            <input type="checkbox">
-            <label>Rainforests</label><br>
-            <input type="checkbox">
-            <label>The Arctic</label><br>
-            <input type="checkbox">
-            <label>Aquatic Life</label><br>
+            <input type="checkbox" id="savannah">
+            <label for="savannah">Savannah</label><br>
+            <input type="checkbox" id="rainforests">
+            <label for="rainforests">Rainforests</label><br>
+            <input type="checkbox" id="arctic">
+            <label for="arctic">The Arctic</label><br>
+            <input type="checkbox" id="aquatic">
+            <label for="aquatic">Aquatic Life</label><br>
             <input type="submit">
         </form>
     </div>
