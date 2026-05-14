@@ -73,6 +73,19 @@ header h3 {
     display: none;
 }
 
+footer{
+    margin-top: 100px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+}
+
+.index-footer p{
+    margin-top: 225px;
+}
+
 /* INDEX */
 
 
