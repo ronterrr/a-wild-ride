@@ -47,6 +47,10 @@ if (currentPage === "/index.html"){
     let currentIndex = 0;
     const quoteSection = document.querySelector(".quote-section");
 
+    quoteSection.innerHTML = `
+        <p class="quote-text>"${quotes[0]}</p>
+        <p class="quote-author">~${quoteAuthors[0]}~</p>
+    `;
     function quoteUpdate(){
         quoteSection.classList.add("fade-out");
         
