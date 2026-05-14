@@ -23,7 +23,7 @@ if (currentPage === "/donations.html"){
 }
 // quotes
 
-if (currentPage === "/index.html"){
+if (currentPage === "/" || currentPage.endsWith("index.html")){
     let quotes = [
         "In all things of nature, there is something of the marvelous.",
         "Colors are the smiles of nature.",
@@ -47,10 +47,6 @@ if (currentPage === "/index.html"){
     let currentIndex = 0;
     const quoteSection = document.querySelector(".quote-section");
 
-    quoteSection.innerHTML = `
-        <p class="quote-text>"${quotes[0]}</p>
-        <p class="quote-author">~${quoteAuthors[0]}~</p>
-    `;
     function quoteUpdate(){
         quoteSection.classList.add("fade-out");
         
